@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("ai.jpg");
+}
+
+.app_container {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.chat_container {
+    padding: 20px;
+}
+
+.chat_window {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image:url("houtarou.jpg");
+    background-size: 86mm;
+}
+
+.input_container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#user_name, #image_upload {
+    
+    
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #555;
+}
+
+.user_message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e1f5fe;
+    border-radius: 5px;
+    align-self: flex-end;
+    max-width: 70%;
+}
+
+.bot_message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffe0b2;
+    border-radius: 5px;
+    align-self: flex-start;
+    max-width: 70%;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
